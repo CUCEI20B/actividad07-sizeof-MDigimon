@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "char",
+      "setup": "g++ -o main -std=c++11 main.cpp",
+      "run": "./main",
+      "input": "char",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "int",
+      "setup": "g++ -o main -std=c++11 main.cpp",
+      "run": "./main",
+      "input": "int",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "double",
+      "setup": "g++ -o main -std=c++11 main.cpp",
+      "run": "./main",
+      "input": "double",
+      "output": "8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
